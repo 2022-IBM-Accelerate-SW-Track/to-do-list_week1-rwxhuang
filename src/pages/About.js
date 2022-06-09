@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import profile from "../assets/IMG-5087_500x.jpg";
+import './About.css';
   
 export default class About extends Component {
   render() {
     return (
       <div>
-        <div class="split left">
+        <div className="split left">
           <div className="centered">
             <img 
               className="profile_image"
